@@ -1,4 +1,5 @@
 import React from "react";
+import './App.css'
 import { ToastContainer } from "react-toastify";
 import Navbar from "./components/Navbar";
 import { Routes, Route } from "react-router-dom";
