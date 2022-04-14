@@ -6,6 +6,7 @@ import { Routes, Route } from "react-router-dom";
 import Add from "./components/Add";
 import Edit from "./components/Edit";
 import Home from "./components/Home";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/add" element={<Add />} />
         <Route path="/edit/:id" element={<Edit />} />
       </Routes>
+      <Footer/>
     </>
   );
 };
